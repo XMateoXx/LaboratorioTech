@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Desarrollo Backend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Explora el Mundo del Desarrollo Backend</h1>
+        <p>Todo lo que necesitas saber sobre la programación del lado del servidor</p>
+    </header>
+    <nav>
+        <a href="#introduccion">Introducción</a>
+        <a href="#herramientas">Herramientas</a>
+        <a href="#divisiones">Divisiones</a>
+        <a href="#informacion-personal">Sobre Mí</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="introduccion">
+        <p>El desarrollo backend es la parte de la programación web que se enfoca en el servidor, bases de datos y lógica empresarial para procesar datos y enviarlos al frontend. Es esencial para garantizar que las aplicaciones sean funcionales, rápidas y seguras.</p>
+    </section>
+
+    <section id="herramientas">
+        <img src="img/Servidor-e1597608701874-1024x379.jpg" alt="Img backend" width="700">
+        <h2>Herramientas Clave en el Backend</h2>
+        <ul>
+            <li><strong>Lenguajes:</strong> JavaScript (Node.js), Python, Java, PHP, Ruby.</li>
+            <li><strong>Frameworks:</strong> Express.js, Django, Flask, Spring, Laravel.</li>
+            <li><strong>Bases de Datos:</strong> MySQL, PostgreSQL, MongoDB, Redis.</li>
+            <li><strong>Otros:</strong> Git, Docker, Kubernetes.</li>
+        </ul>
+    </section>
+
+    <section id="divisiones">
+        <h2>Divisiones del Desarrollo Backend</h2>
+        <p>El desarrollo backend puede dividirse en varios aspectos fundamentales:</p>
+        <ul>
+            <li><strong>Gestión de Bases de Datos:</strong> Almacenamiento, consultas y administración de datos.</li>
+            <li><strong>APIs:</strong> Creación de puntos de acceso para que las aplicaciones se conecten a los datos.</li>
+            <li><strong>Seguridad:</strong> Implementación de autenticación, autorización y encriptación.</li>
+            <li><strong>Optimización:</strong> Mejorar el rendimiento y la escalabilidad de las aplicaciones.</li>
+        </ul>
+    </section>
+
+    <section id="informacion-personal">
+        <h2>Sobre Mí</h2>
+        <h3>Acerca de Mí</h3>
+        <p>Soy un estudiante apasionado por el desarrollo backend, con un interés particular en bases de datos y la construcción de APIs eficientes.</p>
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Aprender nuevos lenguajes de programación</li>
+            <li>Jugar basketball</li>
+            <li>Ir al gimnasio</li>
+            <li>Ver películas</li>
+            <li>Dar clases de inglés</li>
+        </ul>
+        <h3>Mi Horario Semanal</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Mañana</th>
+                    <th>Tarde</th>
+                    <th>Noche</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Estudiar backend</td>
+                    <td>Proyectos personales</td>
+                    <td>Ir al gimnasio</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Clases de inglés</td>
+                    <td>Jugar basketball</td>
+                    <td>Leer documentación</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Trabajar en bases de datos</td>
+                    <td>Resolver problemas de código</td>
+                    <td>Ver películas</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>Desarrollo de APIs</td>
+                    <td>Dar clases de inglés</td>
+                    <td>Estudiar nuevas tecnologías</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>Optimización de código</td>
+                    <td>Jugar basketball</td>
+                    <td>Relajarme</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctame</h2>
+        <p>¿Tienes dudas o necesitas ayuda con un proyecto backend? Llena el formulario para contactarme.</p>
+        <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+
+            <label for="motivo">Motivo de contacto:</label>
+            <select id="motivo" name="motivo" required>
+                <option value="">Selecciona un motivo</option>
+                <option value="consulta">Consulta técnica</option>
+                <option value="proyecto">Colaboración en proyectos</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 - Guía de Desarrollo Backend</p>
+        <h3 class="centrar-texto">Creado Mateo Movilla, estudiante apasionado por la programación</h3>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
